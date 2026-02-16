@@ -1,0 +1,33 @@
+<html> 
+<head> 
+    <script type="text/javascript"> 
+        function confirmbox() { 
+            var ans = confirm("press a button"); 
+            if (ans == true) 
+                alert("you pressed ok"); 
+            else 
+                alert("you pressed cancel"); 
+        } 
+        function wish() { 
+            alert("Happy programming...!!!"); 
+        } 
+        function promptbox() { 
+            name = prompt("please enter your name:"); 
+            if (name == null) 
+                text = "nothing typed"; 
+            else if (name == false) 
+                text = "cancelled...!!"; 
+            else 
+                text = "hello " + name + ",How ru?"; 
+            document.write(text); 
+        } 
+    </script> 
+</head> 
+<body> 
+    <h1>CLICK ME</h1> 
+    <form> 
+        <input type="button" value="CONFIRM" onclick="confirmbox();"> 
+        <input type="button" value="ALERT" onclick="wish();"> 
+        <input type="button" value="PROMPT" onclick="promptbox();"> 
+    </form> 
+</body> 
