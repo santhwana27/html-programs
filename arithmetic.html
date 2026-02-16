@@ -1,0 +1,53 @@
+<html> 
+<body> 
+    <center> 
+        <h1>Click Here to Perform Mathematical Calculation</h1><br> 
+        <script language="javascript"> 
+            function plus() { 
+                var x = prompt("Enter your first number:", "Num 1"); 
+                var y = prompt("Enter your second number:", "Num 2"); 
+                var x1 = parseInt(x); 
+                var y1 = parseInt(y); 
+                var res = x1 + y1;  
+                alert("RESULT = " + res); 
+            } 
+            function minus() { 
+                var x = prompt("Enter your first number:", "Num 1"); 
+                var y = prompt("Enter your second number:", "Num 2"); 
+                var x1 = parseInt(x); 
+                var y1 = parseInt(y); 
+                var res = x1 - y1;  
+                alert("RESULT = " + res); 
+            } 
+            function star() { 
+                var x = prompt("Enter your first number:", "Num 1"); 
+                var y = prompt("Enter your second number:", "Num 2"); 
+                var x1 = parseInt(x); 
+                var y1 = parseInt(y); 
+                var res = x1 * y1;  
+                alert("RESULT = " + res); 
+            } 
+            function divison() { 
+                var x = prompt("Enter your first number:", "Num 1"); 
+                var y = prompt("Enter your second number:", "Num 2"); 
+                var x1 = parseInt(x); 
+                var y1 = parseInt(y); 
+                var res = x1 / y1;  
+                alert("RESULT = " + res); 
+            } 
+            function mod() { 
+                var x = prompt("Enter your first number:", "Num 1"); 
+                var y = prompt("Enter your second number:", "Num 2"); 
+                var x1 = parseInt(x); 
+                var y1 = parseInt(y); 
+                var res = x1 % y1;  
+                alert("RESULT = " + res); 
+            } 
+        </script> 
+        <button onclick="plus()">+</button> 
+        <button onclick="minus()">-</button> 
+        <button onclick="star()">*</button> 
+        <button onclick="divison()">/</button> 
+        <button onclick="mod()">%</button> 
+</body> 
+</html>
